@@ -63,7 +63,7 @@ def commit(statements):
 
 
 def parse_cypher_file(filename):
-    print(filename)
+    print("Run Queries")
     with open(filename) as f:
         lines = f.readlines()
     cypher_statement = []
