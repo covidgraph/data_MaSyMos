@@ -22,7 +22,7 @@ Requirements:
 
 Provide source file (not provided atm until clarified if its non confidential)
 
-`export SOURCE_FILE_URL=https://<LINK-TO-SOURCEFILE>`
+`export SOURCE_FILE_URL=https://<URL-TO-SOURCEFILE>`
 
 Set DB connection:
 
