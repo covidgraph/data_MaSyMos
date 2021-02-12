@@ -26,7 +26,7 @@ Provide source file (not provided atm until clarified if its non confidential)
 
 Set DB connection:
 
-`export NEO4J='{"host":"localhost","port":,"user":"neo4j","password":"wurscht"}'`
+`export NEO4J='{"host":"localhost","port":7687,"user":"neo4j","password":"wurscht"}'`
 
 Start script
 
