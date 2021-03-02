@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the Docker image
-        run: docker build . --file dockerfile --tag data_MaSyMos:latest
+        run: docker build . --file dockerfile --tag data_masymos:latest
       - name: Publish to Registry
         uses: HurricanKai/Publish-Docker-Github-Action@master
         with:
-          name: covidgraph/data_MaSyMos
+          name: covidgraph/data_masymos
           username: ${{ secrets.DZD_DOCKER_USERNAME }}
           password: ${{ secrets.DZD_DOCKER_PASSWORD }}
