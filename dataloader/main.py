@@ -5,6 +5,7 @@ import sys
 import urllib.request
 import py2neo
 import json
+from natsort import os_sorted
 from linetimer import CodeTimer
 
 if __name__ == "__main__":
@@ -148,7 +149,7 @@ clean_data_sources()
 download_data()
 
 
-for filename in os.listdir(DATASOURCE_PATH):
+for filename in os_sorted(os.listdir(DATASOURCE_PATH)):
     if filename.endswith(".cypher"):
         print(f"Start processing '{filename}'")
         with CodeTimer(filename, unit="s"):
