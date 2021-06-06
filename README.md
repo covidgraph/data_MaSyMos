@@ -3,6 +3,15 @@ MaSyMos Dataloader for Covidgraph
 
 Loads a subset of the data of https://sems.bio.informatik.uni-rostock.de/projects/masymos/index.html into Covidgraph
 
+Part of the Covidgraph pipeline: https://github.com/covidgraph/motherlode
+
+
+MaSyMoS is short for "Management System for Models and Simulations". It contains simulation models in SBML and CellML format, simulation descriptions in SED-ML format and bio-ontologies.
+
+## Related Blog Post
+https://healthecco.org/healthecco/masymos/
+
+
 # Run
 
 Requirements:
