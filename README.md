@@ -6,7 +6,7 @@ Loads a subset of the data of https://sems.bio.informatik.uni-rostock.de/project
 Part of the Covidgraph pipeline: https://github.com/covidgraph/motherlode
 
 
-MaSyMoS is short for "Management System for Models and Simulations". It contains simulation models in SBML and CellML format, simulation descriptions in SED-ML format and bio-ontologies.
+MaSyMoS is short for "Management System for Models and Simulations". It contains computational models in SBML and CellML format, simulation descriptions in SED-ML format and bio-ontologies. For a more detailed description see https://pubmed.ncbi.nlm.nih.gov/25754863/
 
 ## Related Blog Post
 https://healthecco.org/healthecco/masymos/
